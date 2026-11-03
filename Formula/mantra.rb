@@ -6,12 +6,12 @@ class Mantra < Formula
 
   on_macos do
     url "https://github.com/solotrondigital/mantra_programming_language/releases/download/v0.8.0/Mantra-0.8.0-macOS.dmg"
-    sha256 "edd23b5049ece3c2cf175c971711a70d5ce1bcce79a7a4d9e1529cb31fc57824"
+    sha256 "787a5bec36b75ac741d3d73d56a15176d7cd2ed03b4dcc1fd69dd988ad47b17a"
   end
 
   on_linux do
     url "https://github.com/solotrondigital/mantra_programming_language/releases/download/v0.8.0/mantra-0.8.0-linux.tar.gz"
-    sha256 "596ee57ddeeeab2d53552c7bb0de04b4d707df9f068c05eda80fffb7ac1b0a0d"
+    sha256 "1c6ecd6c0321078b3b5337f9ae8db1790c4a7478ca80457de94eedbb6d3a308e"
   end
 
   depends_on "llvm" => :recommended
